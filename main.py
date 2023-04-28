@@ -30,7 +30,7 @@ def main():
         frequency_penalty=0,
         presence_penalty=0,
     )
-    print(completion.choices[0].text)
+    print("Ответ чата:\n", completion.choices[0].text)
 
 
 if __name__ == "__main__":
